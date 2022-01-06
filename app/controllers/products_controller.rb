@@ -1,10 +1,8 @@
 class ProductsController < ApplicationController
-    
 
-    
-    
+
     def index
-      @cart = Cart.all
+     #@cart = cart
     end
   
     def add
@@ -18,4 +16,4 @@ class ProductsController < ApplicationController
       params.require(:product)
     end
   
-  end
+  end    
